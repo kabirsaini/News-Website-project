@@ -1,0 +1,348 @@
+
+#container {
+	width: 700px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	text-align: center;
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding: 20px;
+	overflow: hidden;
+	border-radius: 10px;
+	transition: transform 0.5s ease, color 0.5s ease;
+}
+
+
+#container h2 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#container h2 a {
+	color: black;
+	text-decoration: none;
+	/* Optional: Removes the underline from the link */
+}
+
+#container img {
+	width: 600px;
+	height: 400px;
+}
+
+#top-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+#link-box {
+	width: 300px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+#link-box header {
+	background-color: #ccc;
+	color: black;
+	text-align: start;
+	text-decoration: solid underline;
+	margin-bottom: 10px;
+}
+
+#link-box article {
+	border-bottom: 1px solid #ccc;
+	margin: 5px 0px 5px 0px;
+}
+
+#link-box h4 {
+	margin-bottom: 5px;
+}
+
+
+/*-----------------------------------------------------*/
+
+.Weather-box {
+	background: white;
+	text-align: center;
+	max-width: 250px;
+	width: 80%;
+	height: 20%;
+	color: #fff;
+	margin: 100px auto 0;
+	border: 0.3px solid black;
+	border-radius: 20px;
+	padding: 20px 25px;
+
+}
+
+.search {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.search input {
+	background: white;
+	color: #555;
+	padding: 7px 7px;
+	height: 10px;
+	border-radius: 10px;
+	flex: 1;
+	margin-right: 1px;
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.search button {
+	border: 0;
+	background: white;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.search button img {
+	width: 15px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.weather-icon {
+	width: 70px;
+	margin-top: 2px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.weather h1 {
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.weather h2 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: -5px;
+	color: black;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.details {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+	margin-top: 20px;
+	color: black;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.col {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.col img {
+	width: 25px;
+	margin-right: 10px;
+	background-color: rgba(0, 0, 0, 0);
+
+}
+
+.humidity,
+.wind {
+	font-size: 20px;
+	margin-top: -6px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+/*----------------------------------------*/
+
+#top1-box {
+	display: flex;
+	justify-content: space-around;
+}
+
+#box1 {
+	width: 700px;
+	height: 200px;
+	border: 0.5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	transition: transform 0.5s ease, color 0.5s ease;
+	border-radius: 10px;
+}
+
+#box1:hover {
+	transform: scale(1.02);
+}
+
+#box1-content h2 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#box1-content h2 a {
+	color: black;
+	text-decoration: none;
+}
+
+#box1-content {
+	margin-left: 20px;
+	color: black;
+}
+
+#box1 img {
+	width: 228px;
+	height: 160px;
+	margin-left: 10px;
+	transition: transform 0.5s ease;
+}
+
+#box2 {
+	width: 700px;
+	height: 200px;
+	border: 0.5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	transition: transform 0.5s ease, color 0.5s ease;
+	border-radius: 10px;
+}
+
+#box2-content {
+	margin-left: 20px;
+}
+
+#box2-content h2 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#box2-content h2 a {
+	color: black;
+	text-decoration: none;
+	/* Optional: Removes the underline from the link */
+}
+
+#box2:hover {
+	transform: scale(1.02);
+}
+
+#box2 img {
+	width: 228px;
+	height: 160px;
+	margin-left: 10px;
+}
+
+#top2-box {
+	display: flex;
+	justify-content: space-around;
+}
+
+#box3 {
+	width: 700px;
+	height: 200px;
+	border: 0.5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	transition: transform 0.5s ease, color 0.5s ease;
+	border-radius: 10px;
+}
+
+#box3-content h2 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#box3-content h2 a {
+	color: black;
+	text-decoration: none;
+	/* Optional: Removes the underline from the link */
+}
+
+#box3:hover {
+	transform: scale(1.02);
+}
+
+#box3-content {
+	margin-left: 20px;
+}
+
+#box3 img {
+	width: 228px;
+	height: 160px;
+	margin-left: 10px;
+}
+
+#box4 {
+	width: 700px;
+	height: 200px;
+	border: 0.5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	transition: transform 0.5s ease, color 0.5s ease;
+	border-radius: 10px;
+}
+
+#box4-content {
+	margin-left: 20px;
+}
+
+#box4 img {
+	width: 228px;
+	height: 160px;
+	margin-left: 10px;
+}
+
+#box4-content h2 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#box4-content h2 a {
+	color: black;
+	text-decoration: none;
+	/* Optional: Removes the underline from the link */
+}
+
+#box4:hover {
+	transform: scale(1.02);
+}
+
+article a{
+	color: black;
+	text-decoration: none;
+}
+article a:hover{
+	color: red;
+	text-decoration: underline;
+}
+
+article h4{
+	color: rgb(223, 94, 94);
+}

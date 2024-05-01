@@ -1,0 +1,85 @@
+body {
+    margin-top: 20px;
+}
+
+.footer_area {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
+    padding: 60px;
+    display: flex; /* Flex container for the entire footer */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align the items */
+}
+
+.footer_area .row {
+    display: flex; /* Flex container for each row */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-around; /* Space items evenly */
+    width: 100%; /* Full width */
+    margin: 0; /* Reset margin */
+}
+
+.footer_area .row .col,
+.footer_area .row [class^="col-"] {
+    padding: 25px; /* Consistent padding for each column */
+    flex: 1; /* Flex grow equally */
+    display: flex; /* Make each column a flex container */
+    flex-direction: column; /* Stack items vertically within each column */
+}
+
+.single-footer-widget {
+    display: block; /* Ensure widget is treated as a block for vertical stacking */
+}
+
+.single-footer-widget .footer_menu li a {
+    display: block; /* Ensure links within menus are block to manage spacing */
+    color: #747794;
+    margin-bottom: 1rem; /* Spacing between links */
+    font-size: 1rem; /* Uniform font size */
+}
+
+.single-footer-widget .footer_menu li a:hover,
+.single-footer-widget .footer_menu li a:focus {
+    color: #3f43fd; /* Hover and focus color change */
+}
+
+.single-footer-widget .footer_menu li:last-child a {
+    margin-bottom: 0; /* Remove bottom margin for the last item */
+}
+
+.single-footer-widget .widget-title {
+    margin-bottom: 1.5rem; /* Space below the widget title */
+}
+
+.footer_social_area a {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-color: #f5f5ff;
+    line-height: 40px;
+    margin-right: 10px; /* Space between social icons */
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_social_area a:hover,
+.footer_social_area a:focus {
+    color: black /* White text on hover/focus */
+}
+
+.footer_menu i {
+    margin-right: 8px; /* Adjust the right margin to create space */
+}
+
+
+ol li, ul li {
+    list-style: none; /* Remove list style */
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+}

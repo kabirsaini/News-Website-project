@@ -1,0 +1,202 @@
+#Name {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	padding-top: 10px;
+}
+
+#head1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 100%;
+}
+
+#button1 {
+	position: absolute;
+	right: 0;
+	margin-top: 5px;
+	margin-right: 60px;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto;
+	padding: 20px;
+	border: 1px solid black;
+	width: 35%;
+	height: 40%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#firstName,
+#lastName,
+#email {
+	width: auto;
+	height: 20px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#submit {
+	width: 40%;
+	height: 20%;
+	border-radius: 10px;
+	border: 0px;
+	margin-left: 28%;
+	background-color: #04aa6d;
+	color: white;
+}
+
+#submit:hover {
+	background-color: #3e8e41;
+}
+
+button {
+	background-color: #04aa6d;
+	border-radius: 10px;
+	color: white;
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: 0.3px solid black;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+button:active {
+	background-color: #3e8e41;
+	transform: translateY(4px);
+}
+
+#navbar {
+	background-color: #b71c1c;
+	color: white;
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+	border: 1px solid black;
+	margin-top: 10px;
+	font-size: large;
+	position: sticky;
+	top: 0px;
+	transition: all .60s ease;
+	z-index: 1000;
+	overflow: auto;
+}
+
+#navbar a {
+	color: white;
+	margin-right: 110px;
+	background-color: #b71c1c;
+	transition: all .60s ease;
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	text-decoration: underline;
+}
+
+#button {
+	background-color: white;
+	color: black;
+	border-radius: 30px;
+}
+
+.marquee {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #db6767;
+	margin-top: 5px;
+}
+
+.marquee h3 {
+	display: flex;
+	color: rgb(220, 56, 56);
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 0.5px solid black;
+}
+
+.scroll-container {
+	flex-grow: 1;
+	overflow: hidden;
+	padding-left: 20px;
+	/* Space between TRENDING and the scrolling text */
+}
+
+.marquee-text {
+	font-weight: bold;
+	display: inline-block;
+	white-space: nowrap;
+	animation: scrollText 35s linear infinite;
+}
+
+@keyframes scrollText {
+	0% {
+		transform: translateX(100%);
+	}
+
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.red-dot {
+	color: red;
+	/* Set the icon color to red */
+	font-size: 15px;
+	/* Adjust the size of the circle icon */
+	margin-right: 5px;
+	align-self: center;
+}
+

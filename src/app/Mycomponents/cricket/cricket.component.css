@@ -1,0 +1,153 @@
+
+#Cricket-box {
+	width: auto;
+	height: 600px;
+	background-color: #1e2a4a;
+	border: 0.2px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+#IPL {
+	display: flex;
+	flex-direction: row;
+	align-self: flex-start;
+	background-color: #1e2a4a;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+#IPL h1 {
+	background-color: #1e2a4a;
+	color: white;
+	align-self: center;
+	margin-left: 20px;
+	font-size: 60px;
+	margin-top: 10px;
+}
+
+#IPL img {
+	background-color: #1e2a4a;
+	width: 120px;
+	height: 80px;
+}
+
+.Centered-item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #1e2a4a;
+	justify-content: center;
+	margin-top: 90px;
+}
+
+
+
+.scores {
+	width: 320px;
+	height: 320px;
+	display: flex;
+	flex-direction: column;
+	border: 0.3px solid black;
+	margin-left: 30px;
+	border-radius: 10px;
+	background-color: #19398a;
+	transition: transform 0.5s ease;
+}
+
+.scores:hover {
+	transform: scale(1.05);
+}
+
+
+
+#bux1 {
+	width: 320px;
+	height: 200px;
+	border-radius: 10px;
+	background-image: url(/assets/csk.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #19398a;
+}
+
+#bux2 {
+	width: 320px;
+	height: 200px;
+	border-radius: 10px;
+	background-image: url(/assets/VrS9HbOq09dc3BYAaSiX.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #19398a;
+}
+
+#bux3 {
+	width: 320px;
+	height: 200px;
+	border-radius: 10px;
+	background-image: url(/assets/rrvspbks.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #19398a;
+}
+
+#bux4 {
+	width: 320px;
+	height: 200px;
+	border-radius: 10px;
+	background-image: url(/assets/lsgvsdc.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #19398a;
+}
+
+
+.scores-content {
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	background-color: #19398a;
+	border-bottom: 0.5px solid black;
+}
+
+.Wonby {
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+
+button{
+	background-color: lightseagreen;
+    margin-left: 50px;
+    width: 90px;
+    height: 40px;
+    align-self: center;
+    border-radius: 10px;
+    border: none;
+
+}
+
+#ShowMore{
+	background-color: #1e2a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 400px;
+}
+
+#ShowMore a{
+	color: white;
+	font-size: 20px;
+	background-color: #1e2a4a;
+	margin: auto;
+	text-decoration: none;
+}
+
+#ShowMore a:hover{
+	color: red;
+	text-decoration: underline;
+}
+

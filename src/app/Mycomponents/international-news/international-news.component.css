@@ -1,0 +1,212 @@
+#International-news {
+	width: auto;
+	height: 650px;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	height: 650px;
+	margin-left: 20px;
+}
+
+#lg1 {
+	width: 800px;
+	height: 135px;
+	border: 0.5px solid black;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	transition: transform 0.5s ease, color 0.5s ease;
+
+}
+
+#lg1 img {
+	width: 250px;
+	height: 135px;
+	border-radius: 2px;
+
+}
+
+#lg1-content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 12px;
+	align-items: center;
+}
+
+#lg1 h3 a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+#lg1 h3 a {
+	color: black;
+	text-decoration: none;
+	/* Optional: Removes the underline from the link */
+}
+
+#main1 {
+	width: 800px;
+	height: 55%;
+	border: 0.5px solid black;
+	background-image: url(/assets/in1.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left center;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	transition: transform 0.5s ease, color 0.5s ease;
+}
+
+#main1 h1 a:hover {
+	text-decoration: underline;
+}
+
+#main1 h1 a {
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 5px;
+	text-decoration: none;
+	/* Optional: Removes the underline from the link */
+}
+
+#main2 {
+	width: 700px;
+	height: 80%;
+	margin-left: 30px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#vert1 {
+	width: 600px;
+	height: 300px;
+
+	display: flex;
+	flex-direction: row;
+
+}
+
+#vert2 {
+	width: 600px;
+	height: 300px;
+
+	display: flex;
+	flex-direction: row;
+
+	margin-top: 10px;
+
+}
+
+#Int-news {
+	width: 270px;
+	height: 250px;
+	border: 0.5px solid black;
+	background-image: url(/assets/m2.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+}
+
+#Int-news h2 a:hover {
+
+	text-decoration: underline;
+}
+
+#Int-news h2 a {
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 5px;
+	text-decoration: none;
+	/* Optional: Removes the underline from the link */
+}
+
+#Int-news2 {
+	width: 270px;
+	height: 250px;
+	border: 0.5px solid black;
+	background-image: url(/assets/m3.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 30px;
+}
+
+#Int-news2 h2 a:hover {
+
+	text-decoration: underline;
+}
+
+#Int-news2 h2 a {
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 5px;
+	text-decoration: none;
+	/* Optional: Removes the underline from the link */
+}
+
+#Int-news3 {
+	width: 270px;
+	height: 250px;
+	border: 0.5px solid black;
+	background-image: url(/assets/m4.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+
+}
+
+#Int-news3 h2 a:hover {
+
+	text-decoration: underline;
+}
+
+#Int-news3 h2 a {
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 5px;
+	text-decoration: none;
+	
+}
+
+#Int-news4 {
+	width: 270px;
+	height: 250px;
+	border: 0.5px solid black;
+	background-image: url(/assets/m5.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 30px;
+
+}
+
+#Int-news4 h2 a:hover {
+
+	text-decoration: underline;
+}
+
+#Int-news4 h2 a {
+	color: white;
+	background-color: rgba(0, 0, 0, 0);
+	padding: 5px;
+	text-decoration: none;
+
+}

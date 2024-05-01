@@ -1,0 +1,38 @@
+#bigscreen {
+	width: 1438px;
+	height: 500px;
+	background-color: #b71c1c;
+	border: 1px solid black;
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+}
+
+#bigscreen video {
+	background-color: #b71c1c;
+	width: 600px;
+	height: 600px;
+	margin-left: 10px;
+}
+
+#videoContent {
+	background-color: #b71c1c;
+	margin-left: 30px;
+}
+
+#videoContent h2 {
+	background-color: #b71c1c;
+	color: white;
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+#videoContent p {
+	background-color: #b71c1c;
+	color: white;
+	font-size: 16px;
+}
